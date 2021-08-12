@@ -16,10 +16,10 @@ class Fathom
 {
     public static function sites(): Sites
     {
-        return new Sites;
+        return new Sites();
     }
 
-    public static function events(null|string $id = null): Events
+    public static function events(null | string $id = null): Events
     {
         return new Events(
             site: $id ?? config('fathom-sdk.site'),
@@ -28,10 +28,10 @@ class Fathom
 
     public static function aggregations(): Aggregations
     {
-        return new Aggregations;
+        return new Aggregations();
     }
 
-    public static function current(null|string $id = null)
+    public static function current(null | string $id = null)
     {
         $site = $id ?? config('fathom-sdk.site');
 

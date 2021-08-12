@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace JustSteveKing\Fathom\Resources;
 
-use Illuminate\Http\Client\RequestException;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;

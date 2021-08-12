@@ -8,7 +8,8 @@ class Events
 {
     public function __construct(
         private string $site,
-    ) {}
+    ) {
+    }
 
     public function site(): string
     {

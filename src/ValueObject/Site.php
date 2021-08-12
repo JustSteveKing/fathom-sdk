@@ -14,5 +14,6 @@ class Site
         public string $name,
         public string $sharing,
         public Carbon $created,
-    ) {}
+    ) {
+    }
 }

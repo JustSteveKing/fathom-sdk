@@ -11,5 +11,6 @@ class Account
         public string $object,
         public string $name,
         public string $email,
-    ) {}
+    ) {
+    }
 }
